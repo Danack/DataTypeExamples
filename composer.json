@@ -1,0 +1,19 @@
+{
+    "name": "danack/data-type-examples",
+    "description": "Examples for the DataType library.",
+    "type": "project",
+    "require": {
+        "danack/datatype": "^0.5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Danack\\DataTypeExamples\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danack",
+            "email": "Danack@basereality.com"
+        }
+    ]
+}

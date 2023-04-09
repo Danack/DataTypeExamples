@@ -1,0 +1,182 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f08dec04727811be16141a5b65f73fe0",
+    "packages": [
+        {
+            "name": "danack/datatype",
+            "version": "0.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Danack/DataType.git",
+                "reference": "2e4a5ec35d43de8784071827252fac8b9e0797cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Danack/DataType/zipball/2e4a5ec35d43de8784071827252fac8b9e0797cd",
+                "reference": "2e4a5ec35d43de8784071827252fac8b9e0797cd",
+                "shasum": ""
+            },
+            "require": {
+                "danack/var-map": "^0.6.1",
+                "ext-mbstring": "*",
+                "php": ">=8.0",
+                "seld/jsonlint": "^1.9.0"
+            },
+            "require-dev": {
+                "danack/coding-standard": "0.3.0",
+                "danack/php-unit-helper": "dev-master#7e50284d762b816acde56919f82f3431a6bad4c5 as 0.5.0",
+                "infection/infection": "^0.26.16",
+                "laminas/laminas-diactoros": "^2.6",
+                "phpstan/phpstan-strict-rules": "^1.1.0",
+                "phpunit/phpunit": "9.5.6",
+                "psr/http-message": "^1.0",
+                "respect/validation": "^1.1.31",
+                "slevomat/coding-standard": "^7.0.9",
+                "squizlabs/php_codesniffer": "^3.6.0",
+                "yoast/yoastcs": "1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/DataType/functions.php",
+                    "src/DataType/functions_internal.php"
+                ],
+                "psr-0": {
+                    "DataType\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A library that makes using data types easier",
+            "support": {
+                "issues": "https://github.com/Danack/DataType/issues",
+                "source": "https://github.com/Danack/DataType/tree/0.5.2"
+            },
+            "time": "2023-04-09T15:29:39+00:00"
+        },
+        {
+            "name": "danack/var-map",
+            "version": "0.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Danack/VarMap.git",
+                "reference": "c49dc269e699d391405c91cc827017dbe75619ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Danack/VarMap/zipball/c49dc269e699d391405c91cc827017dbe75619ab",
+                "reference": "c49dc269e699d391405c91cc827017dbe75619ab",
+                "shasum": ""
+            },
+            "require-dev": {
+                "infection/infection": "^0.7.1",
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "^6.5.8",
+                "psr/http-message": "^1.0",
+                "squizlabs/php_codesniffer": "^3.5.5",
+                "yoast/yoastcs": "2.0.2",
+                "zendframework/zend-diactoros": "^1.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "VarMap\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dan Ackroyd",
+                    "homepage": "http://basereality.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/Danack/VarMap/issues",
+                "source": "https://github.com/Danack/VarMap/tree/0.6.1"
+            },
+            "time": "2020-05-21T09:26:40+00:00"
+        },
+        {
+            "name": "seld/jsonlint",
+            "version": "1.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/jsonlint.git",
+                "reference": "4211420d25eba80712bff236a98960ef68b866b7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/4211420d25eba80712bff236a98960ef68b866b7",
+                "reference": "4211420d25eba80712bff236a98960ef68b866b7",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.5",
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0 || ^8.5.13"
+            },
+            "bin": [
+                "bin/jsonlint"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Seld\\JsonLint\\": "src/Seld/JsonLint/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "JSON Linter",
+            "keywords": [
+                "json",
+                "linter",
+                "parser",
+                "validator"
+            ],
+            "support": {
+                "issues": "https://github.com/Seldaek/jsonlint/issues",
+                "source": "https://github.com/Seldaek/jsonlint/tree/1.9.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Seldaek",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/seld/jsonlint",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-04-01T13:37:23+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
